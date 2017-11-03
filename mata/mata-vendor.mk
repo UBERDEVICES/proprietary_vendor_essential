@@ -158,22 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/essential/mata/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/essential/mata/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/essential/mata/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/essential/mata/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/essential/mata/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/essential/mata/proprietary/framework/com.essential.score.lib.jar:system/framework/com.essential.score.lib.jar \
-    vendor/essential/mata/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/essential/mata/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/essential/mata/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/essential/mata/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
-    vendor/essential/mata/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/essential/mata/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/essential/mata/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/essential/mata/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/essential/mata/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/essential/mata/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/essential/mata/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/essential/mata/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/essential/mata/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
     vendor/essential/mata/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/essential/mata/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
@@ -748,3 +732,21 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     qcrilhook
+
+PRODUCT_PACKAGES += \
+    ConnectivityExt \
+    QtiTelephonyServicelibrary \
+    cneapiclient \
+    com.essential.score.lib.jar \
+    com.qti.dpmframework \
+    com.qti.location.sdk \
+    com.qti.snapdragon.sdk.display \
+    com.qualcomm.location.vzw_library \
+    com.quicinc.cne \
+    dpmapi \
+    embmslibrary \
+    imscmlibrary \
+    izat.xt.srv \
+    qti-telephony-common \
+    rcsimssettings \
+    tcmclient
