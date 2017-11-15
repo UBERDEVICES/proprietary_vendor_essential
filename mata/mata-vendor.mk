@@ -158,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/essential/mata/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/essential/mata/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/essential/mata/proprietary/lib/hw/audio.primary.msm8998.so:system/lib/hw/audio.primary.msm8998.so \
     vendor/essential/mata/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
     vendor/essential/mata/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/essential/mata/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
