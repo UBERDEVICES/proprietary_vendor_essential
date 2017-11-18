@@ -731,6 +731,7 @@ PRODUCT_PACKAGES += \
     embms \
     shutdownlistener \
     CNEService \
+    HotwordEnrollment \
     QtiTetherService \
     com.qualcomm.location \
     dpmserviceapp \
