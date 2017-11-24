@@ -145,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml:system/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.essential.score.lib.xml:system/etc/permissions/com.essential.score.lib.xml \
-    vendor/essential/mata/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:system/etc/permissions/com.google.android.camera.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -744,8 +743,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ConnectivityExt \
     QtiTelephonyServicelibrary \
+    QPerformance \
     cneapiclient \
-    com.essential.score.lib.jar \
+    com.essential.score.lib \
     com.qti.dpmframework \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
