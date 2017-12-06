@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/essential/mata/proprietary/bin/qvop-daemon:system/bin/qvop-daemon \
     vendor/essential/mata/proprietary/bin/radish:system/bin/radish \
+	vendor/essential/mata/proprietary/bin/rild:system/bin/rild \
     vendor/essential/mata/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/essential/mata/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/essential/mata/proprietary/bin/tftp_server:system/bin/tftp_server \
@@ -168,7 +169,9 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/essential/mata/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/essential/mata/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/essential/mata/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/essential/mata/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+	vendor/essential/mata/proprietary/lib/libril.so:system/lib/libril.so \
+	vendor/essential/mata/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/essential/mata/proprietary/lib/libtsext_inf.so:system/lib/libtsext_inf.so \
     vendor/essential/mata/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/essential/mata/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
@@ -176,10 +179,11 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/essential/mata/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
     vendor/essential/mata/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/essential/mata/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/essential/mata/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
+	vendor/essential/mata/proprietary/lib64/libril.so:system/lib64/libril.so \
+	vendor/essential/mata/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/essential/mata/proprietary/lib64/libsidecar.so:system/lib64/libsidecar.so \
     vendor/essential/mata/proprietary/lib64/libtsext_inf.so:system/lib64/libtsext_inf.so \
-    vendor/essential/mata/proprietary/lib64/libuiblur.so:system/lib64/libuiblur.so \
     vendor/essential/mata/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/essential/mata/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
     vendor/essential/mata/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
@@ -197,6 +201,8 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/essential/mata/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/essential/mata/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
+	vendor/essential/mata/proprietary/vendor/etc/perf-profile7.conf:system/vendor/etc/perf-profile7.conf \
+	vendor/essential/mata/proprietary/vendor/etc/perf-profile8.conf:system/vendor/etc/perf-profile8.conf \
     vendor/essential/mata/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/essential/mata/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/essential/mata/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
